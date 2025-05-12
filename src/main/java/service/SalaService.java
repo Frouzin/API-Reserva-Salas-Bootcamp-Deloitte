@@ -20,8 +20,8 @@ public class SalaService {
         return salaRepository.save(sala);
     }
 
-    public List<Sala> listarSalas(){
-        return salaRepository.findAll();
+    public List<Sala> listarSalas() {
+        return salaRepository.findAll(); // OK
     }
 
     public Sala buscarPorID(Long id){
